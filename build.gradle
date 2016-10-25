@@ -1,0 +1,64 @@
+group 'org.wefine.spring.mybatis'
+version '1.0'
+
+apply plugin: 'java'
+
+apply from: 'dependency.gradle'
+
+allprojects {
+
+}
+
+subprojects {
+    apply plugin: 'war'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        compile "javax.servlet:servlet-api:2.5"
+    }
+}
+
+
+//subprojects {
+//    apply plugin: 'java'
+//    apply plugin: 'maven'
+//    apply plugin: 'idea'
+//    apply plugin: 'eclipse'
+//
+//    // JDK版本
+//    sourceCompatibility = "${java}"
+//    targetCompatibility = "${java}"
+//
+//    repositories {
+//        mavenLocal()
+//        jcenter()
+//        mavenCentral()
+//    }
+//
+//    // 编码改为 UTF-8
+//    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+//
+//    configurations {
+//        //
+//        // 所有需要忽略的包定义在此
+//        //
+//        all*.exclude group: 'commons-httpclient'
+//        all*.exclude group: 'commons-logging'
+//        all*.exclude group: 'commons-beanutils', module: 'commons-beanutils'
+//    }
+//
+//    dependencies {
+//
+//        compile (
+//                libraries['logback-classic'],
+//                libraries['slf4j-jcl'],
+//                libraries['mybatis'],
+//                libraries['mysql'],
+//        )
+//
+//        testCompile (
+//                libraries['junit']
+//        )
+//    }
+//}

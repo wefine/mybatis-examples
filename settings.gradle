@@ -1,0 +1,3 @@
+rootProject.name = 'mybatis3'
+include 'persistence_with_mybatis3_01'
+
