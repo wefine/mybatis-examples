@@ -3,15 +3,14 @@
  */
 package com.mybatis3.services;
 
-import java.io.Reader;
-import java.sql.Connection;
-
+import com.mybatis3.util.MyBatisSqlSessionFactory;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.jdbc.ScriptRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mybatis3.util.MyBatisSqlSessionFactory;
+import java.io.Reader;
+import java.sql.Connection;
 
 /**
  * @author Siva

@@ -1,14 +1,15 @@
 package com.mybatis3.services;
 
-import java.util.Date;
-import java.util.List;
-
+import com.mybatis3.domain.Student;
 import org.junit.AfterClass;
-import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.mybatis3.domain.Student;
+import java.util.Date;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 
 
