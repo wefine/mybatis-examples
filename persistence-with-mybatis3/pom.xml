@@ -9,12 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-
     <artifactId>persistence-with-mybatis3</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>pwm-chapter01</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
