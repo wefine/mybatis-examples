@@ -10,13 +10,14 @@
     <version>0.0.1</version>
     <modules>
         <module>persistence-with-mybatis3</module>
+        <module>mybatis-generator-sample</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.1</version>
+            <version>3.4.4</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -47,6 +48,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
                 <configuration>
                     <target>1.8</target>
                     <source>1.8</source>
